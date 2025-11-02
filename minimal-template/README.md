@@ -107,5 +107,5 @@ Return consistent JSON responses:
 
 ## Support
 
-- Documentation: https://docs.sspsystems.com/sdk
+- Documentation: https://docs.ssppos.com/sdk
 - Email: developers@sspsystems.com

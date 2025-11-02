@@ -334,7 +334,7 @@ curl https://your-app.herokuapp.com/health
 ## Support
 
 - **Razorpay Docs**: https://razorpay.com/docs
-- **SSP Docs**: https://docs.sspsystems.com
+- **SSP Docs**: https://docs.ssppos.com
 - **Issues**: Open an issue on GitHub
 
 ## License

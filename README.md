@@ -359,9 +359,9 @@ SSP can handle billing for you:
 ## 📞 Support
 
 ### Developer Resources
-- **Documentation**: https://docs.sspsystems.com/sdk
-- **API Reference**: https://api-docs.sspsystems.com
-- **Forum**: https://forum.sspsystems.com
+- **Documentation**: https://docs.ssppos.com/sdk
+- **API Reference**: https://api-docs.ssppos.com
+- **Forum**: https://forum.ssppos.com
 
 ### Getting Help
 - **Email**: developers@sspsystems.com
