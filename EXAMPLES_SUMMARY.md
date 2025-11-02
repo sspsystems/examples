@@ -11,18 +11,39 @@ examples/
 ├── README.md                           # Main repository README
 ├── CONTRIBUTING.md                     # Contribution guidelines
 ├── EXAMPLES_SUMMARY.md                 # This file
-├── razorpay-upi-gateway/              # Complete Razorpay example
+├── razorpay-upi-gateway/              # Complete Razorpay example (Node.js)
 │   ├── README.md                      # Full documentation
 │   ├── index.js                       # Implementation
 │   ├── package.json                   # Dependencies
 │   ├── .env.example                   # Config template
 │   └── .gitignore                     # Git ignore
+├── doordash-delivery/                 # DoorDash integration (Python)
+│   ├── README.md                      # Full documentation
+│   ├── app.py                         # Flask implementation
+│   ├── requirements.txt               # Python dependencies
+│   ├── .env.example                   # Config template
+│   └── .gitignore                     # Git ignore
 └── minimal-template/                   # Starter templates
     ├── README.md                      # Template guide
-    └── nodejs/                        # Node.js template
-        ├── index.js                   # Minimal implementation
-        ├── package.json               # Dependencies
-        └── .env.example               # Config template
+    ├── nodejs/                        # Node.js template
+    │   ├── index.js                   # Minimal implementation
+    │   ├── package.json               # Dependencies
+    │   └── .env.example               # Config template
+    ├── python/                        # Python Flask template
+    │   ├── app.py                     # Minimal implementation
+    │   ├── requirements.txt           # Dependencies
+    │   ├── .env.example               # Config template
+    │   └── README.md                  # Setup guide
+    ├── php/                           # PHP Slim template
+    │   ├── index.php                  # Minimal implementation
+    │   ├── composer.json              # Dependencies
+    │   ├── .env.example               # Config template
+    │   └── README.md                  # Setup guide
+    └── go/                            # Go Gin template
+        ├── main.go                    # Minimal implementation
+        ├── go.mod                     # Dependencies
+        ├── .env.example               # Config template
+        └── README.md                  # Setup guide
 ```
 
 ### ✅ What's Included
@@ -59,15 +80,41 @@ Complete production-ready example featuring:
 - `POST /payment-intent` - Create async payment
 - `POST /webhooks/razorpay` - Receive Razorpay webhooks
 
-#### 3. Minimal Template (Node.js)
-Bare-bones starter template:
-- Basic Express app
-- Authentication middleware
-- Required endpoints
-- Error handling
-- Ready to customize
+#### 3. DoorDash Delivery Example (Python)
+Complete delivery platform integration featuring:
+- Create delivery orders
+- Real-time status updates
+- Driver tracking
+- Order cancellation
+- Webhook handling from DoorDash
+- OAuth 2.0 support
+- Full Flask implementation
 
-#### 4. CONTRIBUTING.md
+**Endpoints:**
+- `GET /health` - Health check
+- `GET /capabilities` - Supported features
+- `POST /orders` - Create delivery order
+- `PUT /orders/:id` - Update order status
+- `GET /orders/:id` - Get order details
+- `POST /orders/:id/cancel` - Cancel order
+- `POST /webhooks/doordash` - Receive DoorDash webhooks
+
+#### 4. Minimal Templates (4 Languages)
+Bare-bones starter templates in:
+- **Node.js (Express)** - JavaScript/TypeScript developers
+- **Python (Flask)** - Python developers
+- **PHP (Slim)** - PHP developers
+- **Go (Gin)** - Go developers
+
+Each includes:
+- Authentication middleware/decorator
+- Required endpoints (health, capabilities, example)
+- Error handling
+- Environment configuration
+- Ready to customize
+- Deployment instructions
+
+#### 5. CONTRIBUTING.md
 Complete contribution guide:
 - What we're looking for
 - File structure requirements
